@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(169, 167, 167);
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.links a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    
+}
+
+.logo {
+    background-color: rgb(59, 59, 59);
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 8px 8px 8px #888888;
+}
+
+.ph {
+    margin-top: 90px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(200, 199, 199);
+    border: 2px solid rgb(59, 59, 59);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 1px solid white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.links div:hover {
+    background-color:  rgb(143, 143, 143);
+}
+
+.links div {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
